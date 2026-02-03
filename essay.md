@@ -31,7 +31,7 @@ A cluster heatmap is a popular graphical method for visualizing high dimensional
 To overcome these display challenges, use Spearman/Pearson Correlation instead, ensure Optimal “Leaf Ordering” and use consensus clustering or bootstrap your trees to see if the clusters are stable or just fluke of that specific run.
 
 ### Conclusion:
-There is need for proper knowledge on the several types of heatmaps, guidance on when to use and how to interpret heatmaps and how heatmaps are created, and  how their appearance can be modified by manipulating different display settings. Heatmaps can be deceptive because they look so intuitive that we often do not realize how much we actually do not understand. The aim of visualization is to report true data variations, reduce complexity, user-friendly for people with color-vision deficiency. Avoid red-green as a color combination because it limits accessibility to information for color-blind individuals. 
+There is need for proper knowledge and standard guidelines on the use of heatmaps to ensure accuracy, intuitiveness and accessibility to wide range of users. It is impertaive that we understand how their colormapping/apperance can be modified by manipulating different display settings to overcome the default settings which is critical for correct data interpretation. Heatmaps can be deceptive because they look so intuitive that we often do not realize how much we actually do not understand. The aim of visualization is to report true data variations, reduce complexity, user-friendly for people with color-vision deficiency. Avoid red-green as a color combination because it limits accessibility to information for color-blind individuals. 
 
 -----
 
@@ -51,6 +51,8 @@ v.	Gehlenborg, N., & Wong, B. (2012). Heat maps. Nature Methods, 9(3), 213.
 vi.	Gu, Z., & Hübschmann, D. (2022). Make interactive complex heatmaps in R. Bioinformatics, 38(5), 1460-1462. 
 
 vii.	Wilkinson, L., & Friendly, M. (2009). The history of the cluster heat map. The American Statistician, 63(2), 179-184. 
+
+Vii.  Lin, T. J., Hillman, K., Kim, L., Garg, M., Duong, M., & Landry, M. P. (2025). Quantifying Misuse of Color in Biological Research. bioRxiv, 2025-06. 
 
 
 
