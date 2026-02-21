@@ -1,4 +1,5 @@
 #task 1 -----
+GC percentage calculator
 
 #think the process----
 #loop to condition to operation
