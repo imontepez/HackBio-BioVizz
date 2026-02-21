@@ -2,7 +2,7 @@
 #task 2 
 
 #Protein weight calculator
-aa_mw_KDa <- function(input_amino_seq) {
+aa_mw_KDa <- function(input_amino_seq = "imnte peter") {  #using my name as a default input
   
   amino_seq <-  c("A", "R", "N", "D", "C", "E", "Q", "G", "H", "I", "L", "K", "M", "F", "P", "S", "T", "W", "Y", "V")
   
@@ -56,5 +56,6 @@ aa_mw_KDa <- function(input_amino_seq) {
   
 }
 
-#aa_mw_KDa("imonte peter c")
+# Practice -----
+#aa_mw_KDa("imonte peter c") #my fullname but would return 0 because it contains a non-amino characeter.
 aa_mw_KDa("imnte peter c")
