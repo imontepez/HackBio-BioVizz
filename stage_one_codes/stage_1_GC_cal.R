@@ -3,35 +3,8 @@ GC percentage calculator
 
 #think the process----
 #loop to condition to operation
-gene <- 'gcaTTtat'
-
-gene <- strsplit(x = gene, split = "")[[1]]
-print(gene)
-gene <- toupper(gene)
-print(gene)
-print(length(gene))
-gc_counter <- 0
-
-for (i in gene) {
-  print(i)
-  
-  if(i  == 'G' | i == 'C')
-    gc_counter = gc_counter +1
-}
-
-gc_counter/length(gene)*100
-
-
-
-
-
 
 #the main operation---
-gsub("[^A-Z]", "", seq)
-
-#?toupper()
-#?gsub()
-#?identical()
 
 GC_calculator <- function(input_gene) {
   
