@@ -1,6 +1,6 @@
 # Protein Weight Calculator 
 
-Function To Calculate The Molecular Weight (MW) of a Protein in Kilodalton
+*Function To Calculate The Molecular Weight (MW) of a Protein in Kilodalton*
 
 ----
 
