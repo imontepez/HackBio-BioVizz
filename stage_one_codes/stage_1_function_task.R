@@ -23,13 +23,14 @@ aa_mw_KDa <- function(input_amino_seq = "imnte peter") {  #using my name as a de
   #split the amino acid input
   input_amino_seq <- strsplit(x = input_amino_seq, split = "")[[1]]
   
+  #initialize the calculation loop  
   weight_d <- 0
   
   is_valid <- TRUE  # Simple flag to track if ALL are valid 
   
-  for (aa in input_amino_seq) {
+  for (aa in input_amino_seq) {    # for loop
     
-    if (aa %in% amino_seq) {  
+    if (aa %in% amino_seq) {       # IF conditional statement
       
       weight_d <- weight_d + aa_masses[[aa]]  # Add incrementally 
       
@@ -40,10 +41,10 @@ aa_mw_KDa <- function(input_amino_seq = "imnte peter") {  #using my name as a de
     }
   }
   
-  
+
   if (is_valid) {
     
-    weight_d <- (weight_d - (length(input_amino_seq) - 1) * 18.02) + 1
+    weight_d <- weight_d - (length(input_amino_seq) - 1) * 18.02
     
     weight_in_Kd <- weight_d / 1000
     
